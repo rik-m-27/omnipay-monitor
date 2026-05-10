@@ -88,6 +88,27 @@ project.fragment.lock.json
 artifacts/
 .artifacts/
 
+# .NET Build results
+[Dd]ebug/
+[Rr]elease/
+bin/
+obj/
+
+# User-specific files (Visual Studio / VS Code)
+.vs/
+.vscode/
+*.user
+*.suo
+
+# SQLite Database (Crucial: Don't push your local DB to GitHub)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Avalonia-specific
+.avalonia/
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
